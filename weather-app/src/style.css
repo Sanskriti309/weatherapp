@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+.main{
+    background-image: url('../public/images/backgroun.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.image-box{
+    background-image: url('../public/images/city.jpg');
+    height: 90vh;
+    margin-top: 50px;
+    background-size: cover;
+    background-position: center;
+    padding-right: 20px;
+    position: relative;
+}
+
+.time{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    margin: 30px;
+    font-size: 4rem;
+    margin-left: 50px;
+    
+}
+.place{
+    float: right;
+    margin: 30px;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+}
+.day{
+    display: block;
+    font-size: 1rem;
+}
+.temp{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-size: 6rem;
+    margin: 30px;
+    margin-right: 90px;
+}
+.hero{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.783);
+}
+.hero img{
+    width: 300px;
+    height: 300px;
+}
+.search-box{
+    background-color: rgba(0, 0, 0, 0.035);
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.icon-button{
+    background-color: rgba(0, 0, 0, 0.063);
+    border-radius: 50px;
+    border: none;
+}
+.icon{
+    color: white;
+    font-size: 20px;
+}
+.icon:hover{
+    background-color: rgba(0, 0, 0, 0.734);
+    border-radius: 50px;
+}
+
+ul{
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.1  rem;
+}
+.list{
+    border-top: 2px solid rgba(255, 255, 255, 0.213);
+    text-align: left;
+}
+.list span{
+    float: right;
+}
+.time{
+    text-align: left;
+}
